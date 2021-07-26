@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title> Air Quality Index</title>
+    <body>
+    <header>
+    <div class="container">
+    <div id="brandname">
+     AQI Prediction using ML and flask
+         <h2> Air Quality Prediction</h2>
+    </div>
+    </header>
+    <div class = "ml-container">
+    <form action = "{{url_for('predict')}}", method ="POST">
+    <textarea name = "messages" ,rows = "8", cols="5">
+    </textarea>
+    <br/>
+    
+    <input type = "submit" , value = "predict">
+    </form>
+    </div>
+    </body>
+    
+</html>
+

@@ -1,0 +1,43 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Sat Jul 24 11:41:27 2021
+
+@author: LENOVO
+"""
+
+<!DOCTYPE html>
+
+<html>
+<head>
+        <title></title>
+<head></head>
+<body>
+<header>
+
+<div class = 'container'>
+<div id = 'brandname'>
+Air Quality Index Prediction
+</div>
+<h2> Air Qualiyy</h2>
+
+</div>
+</header>
+
+<p style = 'color:blue;font-size:20;text-align:center;'>
+<b> Result for Comment</b></p>
+
+<div class = 'results'>
+<h2 style = 'color:blue;'>Air Quality Index output</h2>
+
+<table>
+<tbody>
+<th> Air Quality Index </th>
+{% for item in prediction %}
+  <tr><td> {{item}}</td></tr>
+  
+{% endfor %}
+</tbody>
+</table>
+</div>
+</body>
+</html> 
