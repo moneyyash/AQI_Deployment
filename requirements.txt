@@ -1,0 +1,6 @@
+pip install flask
+pip install pandas 
+pip install pickle
+pip install matplotlib
+pip install numpy
+pip install seaborn
